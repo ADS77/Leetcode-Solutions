@@ -1,16 +1,10 @@
-#include<bits/stdc++.h>
-using namespace std;
-vector< string >v;
-int main()
-{
-
-    string s;
-    while (cin>>s)
-    {
-
-
-
-
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        
+        
+        
+        
     int n=s.length();
     int len=0,l,r;
     string ans;
@@ -40,7 +34,7 @@ int main()
             r++;
         }
     }
-cout<<ans<<endl;
+return ans;
+        
     }
-
-}
+};
